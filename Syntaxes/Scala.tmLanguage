@@ -98,6 +98,12 @@
 			<key>name</key>
 			<string>keyword.control.untitled.scala</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>'[a-zA-Z_][a-zA-Z0-9_]*</string>
+			<key>name</key>
+			<string>constant.other.symbol.scala</string>
+		</dict>
 	</array>
 	<key>repository</key>
 	<dict>
@@ -190,39 +196,6 @@
 					</dict>
 					<key>name</key>
 					<string>string.quoted.double.scala</string>
-					<key>patterns</key>
-					<array>
-						<dict>
-							<key>match</key>
-							<string>\\.</string>
-							<key>name</key>
-							<string>constant.character.escape.scala</string>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>begin</key>
-					<string>'</string>
-					<key>beginCaptures</key>
-					<dict>
-						<key>0</key>
-						<dict>
-							<key>name</key>
-							<string>punctuation.definition.string.begin.scala</string>
-						</dict>
-					</dict>
-					<key>end</key>
-					<string>'|(\w(\s|\W))</string>
-					<key>endCaptures</key>
-					<dict>
-						<key>0</key>
-						<dict>
-							<key>name</key>
-							<string>punctuation.definition.string.end.scala</string>
-						</dict>
-					</dict>
-					<key>name</key>
-					<string>string.quoted.single.scala</string>
 					<key>patterns</key>
 					<array>
 						<dict>
