@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def ${1:method}(${2:arguments})${3:: ${4:Unit}} = {
+	<string>def ${1:method}(${2:arguments})${3:: ${4:Unit} =} {
 	${0:// expression}
 }
 </string>
